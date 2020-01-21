@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import Row from "./component/rows";
 import GameBoard from "./component/GameBoard";
 ReactDOM.render(<GameBoard />, document.getElementById("root"));
 
