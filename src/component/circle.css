@@ -1,0 +1,133 @@
+.draw-circle {
+  height: 40px;
+  width: 40px;
+  border-left: 200px;
+  margin-left: 10px;
+  background-color: rgb(218, 208, 208);
+  border-width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  align-self: center;
+  align-content: center;
+  cursor: pointer;
+  outline: none;
+}
+.draw-circle-button {
+  margin-bottom: 10px;
+}
+.draw-circle-button__select {
+  border: 5px solid black;
+}
+.check-circles {
+  display: grid;
+  width: 70px;
+  margin-left: 50px;
+  content: "x";
+  grid-template-columns: 20px 20px;
+}
+.draw-check-circle {
+  height: 15px;
+  width: 15px;
+  cursor: default;
+  margin-left: 10px;
+}
+.draw-check-circle--black {
+  background-color: black;
+}
+.draw-check-circle--brown::after {
+  content: "X";
+  font-size: 17px;
+  line-height: 15px;
+  margin-left: 2.5px;
+  margin-bottom: 1000px;
+  height: 10px;
+}
+.tick-style {
+  font-size: 30px;
+  width: 0px;
+  display: flex;
+  cursor: pointer;
+  color: green;
+  outline: none;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.main-container__buttons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+}
+.row-flex {
+  display: flex;
+  margin-bottom: 5px;
+  flex-direction: row;
+  padding: 10px 0;
+}
+.show-rules {
+  display: flex;
+  width: 28%;
+  margin-left: 36%;
+  margin-right: 36%;
+  flex-direction: column;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  display: inline;
+
+  font-size: 70px;
+  text-align: center;
+}
+
+h2 {
+  cursor: pointer;
+  font-size: 25px;
+}
+.popup {
+  position: absolute;
+  width: 30%;
+  height: 23%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #32cd32;
+}
+
+button {
+}
+.popup-text {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+button {
+  background-color: beige;
+  border-radius: 28px;
+  border: 1px solid black;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px black;
+}
+button:hover {
+  background-color: darkgray;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+.button-center {
+  text-align: center;
+}
